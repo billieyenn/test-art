@@ -1,7 +1,7 @@
 return (config) => {
   return function (p) {
     p.setup = function () {
-      p.createCanvas(710, 400, WEBGL);
+      p.createCanvas(710, 400, p.WEBGL);
     }
     p.draw = function () {
       p.background(250);
